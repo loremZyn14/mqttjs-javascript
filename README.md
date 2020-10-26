@@ -1,5 +1,5 @@
 # mqttjs-javascript_resources
-JavaScript implementation of MQTT using MQTT.js
+JavaScript implementation of MQTT using MQTT.js Resources
 
 ## Source
 - https://github.com/mqttjs/MQTT.js
