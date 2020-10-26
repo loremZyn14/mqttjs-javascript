@@ -1,4 +1,4 @@
-# mqttjs-javascript
+# mqttjs-javascript_resources
 JavaScript implementation of MQTT using MQTT.js
 
 ## Source
