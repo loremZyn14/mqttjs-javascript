@@ -36,8 +36,18 @@ client.on('connect', function () {
 //   pub_input.value = "";
 // })
 
-var pub_switch = document.getElementById('pub-switch');
-pub_switch.onclick = () => {
-    console.log(pub_switch.checked)
-    client.publish('cpx-switch', String(pub_switch.checked))
+const pub_switch_0 = document.getElementById('pub-switch-0');
+const pub_switch_1 = document.getElementById('pub-switch-1');
+const pub_switch_2 = document.getElementById('pub-switch-2');
+pub_switch_0.onclick = () => {
+    console.log('0',pub_switch_0.checked)
+    client.publish('cpx-switch/0', String(pub_switch_0.checked))
+}
+pub_switch_1.onclick = () => {
+    console.log('1',pub_switch_1.checked)
+    client.publish('cpx-switch/1', String(pub_switch_1.checked))
+}
+pub_switch_2.onclick = () => {
+    console.log('2',pub_switch_2.checked)
+    client.publish('cpx-switch/2', String(pub_switch_2.checked))
 }
